@@ -1,3 +1,16 @@
+@media screen and (max-width: 700px) {
+    .desc {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    input , button {
+        display: block;
+        margin: auto;
+    }
+}
+
 body {
   display: table;
   width: 100%;
@@ -5,12 +18,14 @@ body {
   padding: 100px 0;
   background-image: linear-gradient(rgb(24, 0, 112), rgb(173, 177, 212));
   font-family: 'Supermercado One', cursive;
+  overflow: hidden;
 }
 
 .container {
     width: 700px; 
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 h1 {
@@ -31,6 +46,7 @@ input , button {
     font-family: 'Supermercado One', cursive;
     width: 130px;
     height: 25px;
+    padding: 0;
 }
 
 li {
@@ -39,10 +55,12 @@ li {
 
 .divedit {
  background-color: rgba(255, 255, 255, 0.582);
- margin-top: 15px;
+ margin-top: 25px;
  width: 75%;
  display: inline-block;
  white-space: nowrap;
  overflow: auto !important;
  text-overflow: ellipsis;
+ text-align: center;
+ 
 }
