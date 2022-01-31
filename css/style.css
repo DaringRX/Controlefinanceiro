@@ -1,7 +1,7 @@
 @media screen and (max-width: 700px) {
     .container {
         width: 100%;
-        max-width: 460px;
+        max-width: 420px;
     }
 }
 
@@ -15,13 +15,14 @@
     input , button {
         display: block;
         margin: auto;
+        margin-top: 5px;
     }
 }
 
 @media screen and (max-width: 700px) {
     .divedit {
         width: 100%;
-        max-width: 444px;
+        max-width: 405px;
     }
 }
 body {
