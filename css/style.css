@@ -2,6 +2,7 @@
     .container {
         width: 100%;
         max-width: 420px;
+        overflow: auto;
     }
 }
 
@@ -22,7 +23,7 @@
 @media screen and (max-width: 700px) {
     .divedit {
         width: 100%;
-        max-width: 405px;
+        max-width: 410px;
     }
 }
 body {
