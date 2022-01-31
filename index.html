@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <title>Controle Financeiro - Controle suas despesas de forma Fácil e Grátis</title>
+</head>
+<body>
+    <div class="container">    
+        <h1>Controle Financeiro</h1>
+        <br>
+        <p class="desc">Adicione a Descrição, Valor e a Data de vencimento.</p>
+        <input type="text" id="n1" placeholder="Descrição">
+        <input type="number" id="n2" placeholder="Valor">
+        <input type="date" id="n3" placeholder="Vencimento">
+        <input type="button" id="add" value="Adicionar" onclick="listar()">
+        <button onClick="window.location.reload();">Resetar Lista</button>
+
+                <div class="divedit" id="inputTextToSave"  style="width:680px;height:256px">
+                <p id="res"></p>
+                </div>
+
+    
+        <br>
+        <input type="button" value="Baixar PDF" onclick="baixar_pdf()">
+    </div>
+        <script src="inject.js"></script>
+</body>
+</html>
