@@ -1,8 +1,14 @@
 @media screen and (max-width: 700px) {
+    .corpo {
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
     .container {
         width: 100%;
         max-width: 420px;
-        overflow: auto;
+        overflow: hidden;
     }
 }
 
