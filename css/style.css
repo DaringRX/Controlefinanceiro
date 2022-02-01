@@ -2,7 +2,6 @@
     .container {
         width: 100%;
         max-width: 420px;
-        max-height: 1080px;
         overflow: auto;
     }
 }
@@ -32,7 +31,7 @@ body {
   width: 100%;
   height: 100vh;
   padding: 100px 0;
-  background-image: linear-gradient(rgb(24, 0, 112), rgb(173, 177, 212));
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(254, 255, 249));
   font-family: 'Supermercado One', cursive;
   overflow: hidden;
 }
@@ -58,19 +57,12 @@ p {
     color: azure;
 }
 
-input , button {
-    font-family: 'Supermercado One', cursive;
-    width: 130px;
-    height: 25px;
-    padding: 0;
-}
-
 li {
     color: rgb(255, 83, 83);
 }
 
 .divedit {
- background-color: rgba(255, 255, 255, 0.582);
+ background-color: rgba(255, 255, 255, 0.726);
  margin-top: 25px;
  width: 75%;
  display: inline-block;
@@ -78,5 +70,5 @@ li {
  overflow: auto !important;
  text-overflow: ellipsis;
  text-align: center;
- 
+ border-radius: 10px;
 }
